@@ -1,2 +1,2 @@
 # Moving_Business_Website
-# This repository contains a index.html file for moving website.
+# This repository contains an index.html file for moving business website.
