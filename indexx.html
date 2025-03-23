@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .quote-list {
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: wrap; /* Allow items to wrap to the next line */
+            list-style-type: none; /* Remove default list styling */
+            padding: 0; /* Remove padding */
+            margin: 0; /* Remove margin */
+            justify-content: center; /* Center items horizontally */
+        }
+
+        .quote-item {
+            margin: 20px; /* Space between quotes */
+            border: 1px solid #ccc; /* Optional border */
+            padding: 10px; /* Padding inside each quote */
+            border-radius: 5px; /* Rounded corners */
+            flex: 1 1 30%; /* Allow items to grow and shrink, with a base width of 30% */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+            text-align: center; /* Center text inside the quote item */
+        }
+
+        .grid {
+            display: flex; /* Flexbox for layout */
+            align-items: center; /* Center items vertically */
+            justify-content: center; /* Center items horizontally */
+        }
+
+        .review {
+            flex: 1; /* Allow review to take available space */
+        }
+
+        .photo {
+            margin-left: 10px; /* Space between text and image */
+        }
+
+        .round {
+            border-radius: 50%; /* Make image round */
+            width: 50px; /* Set image width */
+            height: 50px; /* Set image height */
+        }
+    </style>
+</head>
+<body>
+    <ul class="quote-list">
+        <li class="quote-item">
+            <div class="grid">
+                <div class="review">
+                    <div class="quote">
+                        <div class="quotebg">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                    </div>
+                    <p class="gray">
+                        I was impressed by the moling services, lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui not dolorem ipsum is simply free text available in the market quia.
+                    </p>
+                    <h3 class="link">Christine Rose</h3>
+                    <p class="gray">Customer</p>
+                    <div class="photo">
+                        <img alt="Portrait of Christine Rose" class="round small" src="https://storage.googleapis.com/a1aa/image/20Ak9_5Imd6fdkjF1-32tCWd4riAv-D7930hFOdyAOc.jpg" />
+                    </div>
+                </div>
+            </div>
+        </li>
+        
+        <li class="quote-item">
+            <div class="grid">
+                <div class="review">
+                    <div class="quote">
+                        <div class="quotebg">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                    </div>
+                    <p class="gray">
+                        I was impressed by the moling services, lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui not dolorem ipsum is simply free text available in the market quia.
+                    </p>
+                    <h3 class="link">Christine Rose</h3>
+                    <p class="gray">Customer</p>
+                    <div class="photo">
+                        <img alt="Portrait of Christine Rose" class="round small" src="https://storage.googleapis.com/a1aa/image/20Ak9_5Imd6fdkjF1-32tCWd4riAv-D7930hFOdyAOc.jpg" />
+                    </div>
+                </div>
+            </div>
+        </li>
+        
+        <li class="quote-item">
+            <div class="grid">
+                <div class="review">
+                    <div class="quote">
+                        <div class="quotebg">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                    </div>
+                    <p class="gray">
+                        I was impressed by the moling services, lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui not dolorem ipsum is simply free text available in the market quia.
+                    </p>
+                    <h3 class="link">Christine Rose</h3>
+                    <p class="gray">Customer</p>
+                    <div class="photo">
+                        <img alt="Portrait of Christine Rose" class="round small" src="https://storage.googleapis.com/a1aa/image/20Ak9_5Imd6fdkjF1-32tCWd4riAv-D7930hFOdyAOc.jpg" />
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul> 
+</body>
+</html>
